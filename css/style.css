@@ -1598,9 +1598,3 @@ h1, h2, h3, h4, h5,
   font-size: 10vh;
   color: #c2b59b;
 }
-
-@media (max-width: 991.98px) {
-  #igIcon {
-    font-size: 5vh;
-  }
-}
