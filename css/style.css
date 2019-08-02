@@ -1651,9 +1651,9 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 991.98px)
 {
-  #aptIMG {
+  /* #aptIMG {
     background-image: url("../images/33405413948_47c73d23de_o.jpg");
-  }
+  } */
   #aboutIMG {
     background-image: url("../images/IMG_3294.jpg");
   }
