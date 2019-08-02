@@ -1640,3 +1640,22 @@ h1, h2, h3, h4, h5,
   text-decoration: line-through;
   background-color: #c2b59b;
 }
+
+#aptIMG {
+  background-image: url("../images/33995191578_00362433f7_o.jpg");
+}
+
+#aboutIMG {
+  background-image: url("../images/IMG_3277.PNG");
+}
+
+@media (max-width: 991.98px)
+{
+  #aptIMG {
+    background-image: url("../images/33405413948_47c73d23de_o.jpg");
+  }
+  #aboutIMG {
+    background-image: url("../images/IMG_3277(1).PNG");
+
+  }
+}
