@@ -1396,8 +1396,7 @@ h1, h2, h3, h4, h5,
       text-decoration: underline; }
 
 .testimony {
-  font-size: 20px;
-  font-family: "Cinzel";
+  font-size: 15px;
   text-align: center;
   text-transform: none !important; }
   .testimony img {
@@ -1660,5 +1659,21 @@ h1, h2, h3, h4, h5,
 
   .hero-2 {
     background-attachment: scroll;
+  }
+}
+
+.checked {
+  color: #ffd700;
+}
+
+#reviews {
+  width: 57vh;
+  text-align: center;
+}
+
+@media (max-width: 991.98px)
+{
+  #reviews {
+    width: 100%;
   }
 }
