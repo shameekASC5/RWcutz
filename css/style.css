@@ -1667,13 +1667,28 @@ h1, h2, h3, h4, h5,
 }
 
 #reviews {
-  width: 57vh;
+  width: 100vh;
   text-align: center;
+}
+
+#review_container {
+  display: inline-flex;
+  width: 100%;
+}
+
+#dillon {
+  margin-left: 5vh;
 }
 
 @media (max-width: 991.98px)
 {
   #reviews {
     width: 100%;
+  }
+  #review_container {
+    flex-direction: column;
+  }
+  #dillon {
+    margin: 0;
   }
 }
